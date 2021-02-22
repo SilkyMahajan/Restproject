@@ -1,0 +1,47 @@
+Status: FAILED
+Time Taken: 549
+Size: 43
+Timestamp: Mon Feb 22 23:19:33 IST 2021
+TestStep: Add Product
+
+----------------- Messages ------------------------------
+[Script Assertion to add Success Msg] C:\Silky\SeleniumTraining\IBMSoapUI\Rest Project\AddProductDetails.xls (The system cannot find the path specified)
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://rest-api.upskills.in
+Method: POST
+StatusCode: 200
+URL: http://rest-api.upskills.in/api/rest_admin/products
+
+---------------- Request ---------------------------
+Authorization: [Bearer 991a33827a1adf98f17f65d6ade165af38c4fb55]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [rest-api.upskills.in]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [199]
+Content-Type: [application/json]
+
+POST http://rest-api.upskills.in/api/rest_admin/products HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer 991a33827a1adf98f17f65d6ade165af38c4fb55
+Content-Length: 199
+Host: rest-api.upskills.in
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Server: [LiteSpeed]
+Connection: [Keep-Alive]
+Set-Cookie: [OCSESSID=4f98da8bcef78b5ea9bf704e6c; path=/, language=en-gb; expires=Wed, 24-Mar-2021 17:49:32 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in, currency=INR; expires=Wed, 24-Mar-2021 17:49:32 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [43]
+Date: [Mon, 22 Feb 2021 17:49:33 GMT]
+X-Powered-By: [PHP/5.6.40]
+Content-Type: [application/json; charset=utf-8]
+
+{"success":1,"error":[],"data":{"id":3476}}
